@@ -6,13 +6,19 @@
   top: 0;
 }
 
+.main__title{
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
 .login{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  top:15%;
+  top:5%;
   position: absolute;
   padding: 30px;
 }
@@ -54,9 +60,34 @@ form button:hover{
   cursor: pointer;
 }
 
-@media  only screen and (max-width: 529px) {
+@media  only screen and (max-width: 800px) {
   .main__welcomeTex{
     font-size: 50px;
     color: black;
+  }
+  .main__title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .main__headerRed{
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+  }
+
+  form{
+    display: flex;
+    gap: 2px;
+    box-shadow: 5px 5px #88888875
+  }
+}
+
+@media  only screen and (max-width: 500px){
+  p{
+    margin: 50px;
   }
 }

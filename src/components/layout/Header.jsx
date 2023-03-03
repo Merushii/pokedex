@@ -14,7 +14,7 @@ const Header = () => {
     <header>
       <div>
         <div className='header__title'>
-          <img src="/public/images/image 11.png" alt="" />
+          <img src="https://upload.wikimedia.org/wikipedia/it/8/83/Pok%C3%A9dex_3D.png" alt="" />
           <div className='header__containerButton'>
               <button onClick={handleClickLogOut}>Log Out</button>
           </div>
