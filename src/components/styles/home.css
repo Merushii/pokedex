@@ -60,7 +60,7 @@ form button:hover{
   cursor: pointer;
 }
 
-@media  only screen and (max-width: 800px) {
+@media  only screen and (max-width: 668px) {
   .main__welcomeTex{
     font-size: 50px;
     color: black;
