@@ -1,0 +1,62 @@
+.main__headerRed{
+  background-color: red;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  top: 0;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top:15%;
+  position: absolute;
+  padding: 30px;
+}
+
+.main__imgPokebola{
+  width: 15%;
+}
+
+.main__welcomeTex{
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+
+.main__textInsertName{
+  font-size: 20px;
+}
+
+#nameTrainer{
+  max-width: 200px;
+  font-size: 20px;
+}
+
+form{
+  display: flex;
+  gap: 2px;
+  box-shadow: 5px 5px #88888875
+}
+
+form button{
+  background-color: red;
+  border: none;
+  color: white;
+  width: 70px;
+}
+
+form button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+@media  only screen and (max-width: 529px) {
+  .main__welcomeTex{
+    font-size: 50px;
+    color: black;
+  }
+}

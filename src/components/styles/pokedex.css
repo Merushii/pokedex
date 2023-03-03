@@ -1,0 +1,66 @@
+.pokedex__form{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  box-shadow: none;
+}
+
+p{
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+span{
+  color: red;
+}
+
+.pokedex__form select{
+  font-size: 15px;
+  width: 20%;
+}
+
+.pokedex__formInput{
+  display: flex;
+  gap: 2px;
+}
+
+.pokedex__form input{
+  max-width: 300px;
+  font-size: 20px;
+}
+.pokedex__formInput button{
+  transition: 0.3s;
+}
+
+.pokemon__cards{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+
+.ul__pagination{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.ul__pagination li{
+  background-color: red;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  color: white;
+}
+
+.ul__pagination li:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
