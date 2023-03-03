@@ -19,7 +19,7 @@ const Home = () => {
         <div className='main__headerRed'></div>
         <div className="login">
           <div className="main__title">
-            <img src="https://github.com/Merushii/pokedex/blob/main/public/images/image%2011.png" alt="" />
+            <img src="https://github.com/Merushii/pokedex/blob/main/public/images/image 11.png" alt="" />
           </div>
           <img className='main__imgPokebola' src="/public/images/pokebola.png" alt="" />
           <h2 className='main__welcomeTex'>Hello trainer!</h2>
